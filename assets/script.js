@@ -161,7 +161,7 @@ function generateAvatar(seed, size=240){
 /* ── TEAM DATA & RENDER ── */
 const team = [
   { handle:'pran0x', role:'Team Lead', bio:'XSS, SQLi, SSRF — a full stack of destruction.', tags:['web','xss','sqli'], seed:9024, img:'/assets/img/crews/pran0x.png', active:true },
-  { handle:'S4M', role:'Admin', bio:'Disassembles firmware for fun. Malware analyst by night.', tags:['re','malware','ida'], seed:3847, img:'/assets/img/crews/nahid.png', active:true },
+  { handle:'S4M', role:'Admin', bio:'Disassembles firmware for fun. Malware analyst by night.', tags:['Reverse Engineering','malware','ida'], seed:3847, img:'/assets/img/crews/nahid.png', active:true },
   { handle:'x!ku7inG', role:'Member', bio:'Breaks RSA before breakfast. Lattice sorcerer.', tags:['PWN','OSINT'], seed:6193, img:'/assets/img/crews/ziku.png', active:true },
   { handle:'websh3ll', role:'Member', bio:'Disassembles firmware for fun. Malware analyst by night.', tags:['Reverse Engineering','PWN','OSINT'], seed:9025, img:'/assets/img/crews/websh3ll.png', active:true },
   { handle:'khaled0x0', role:'Formal Captain', bio:'Android & reverse engineering specialist.', tags:['Android','Reverse Engineering'], seed:8816, img:'/assets/img/formal-crews/khaled.png', active:false },
