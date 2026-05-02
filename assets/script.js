@@ -160,7 +160,7 @@ function generateAvatar(seed, size=240){
 
 /* ── TEAM DATA & RENDER ── */
 const team = [
-  { handle:'pran0x', role:'Team Lead', bio:'XSS, SQLi, SSRF — a full stack of destruction.', tags:['web','xss','sqli'], seed:9024, img:'./assets/img/crews/pran0x.png', active:true, social:{linkedin:'https://www.linkedin.com/in/pran0x',x:'https://x.com/pran0x',github:'https://github.com/pran0x',website:'https://root.pran0x.github'} },
+  { handle:'pran0x', role:'Team Lead', bio:'XSS, SQLi, SSRF — a full stack of destruction.', tags:['web','xss','sqli'], seed:9024, img:'./assets/img/crews/pran0x.png', active:true, social:{linkedin:'https://www.linkedin.com/in/pran0x',x:'https://x.com/pran0x',github:'https://github.com/pran0x',website:'https://root.pran0x.dev'} },
   { handle:'S4M', role:'Admin', bio:'Disassembles firmware for fun. Malware analyst by night.', tags:['Reverse Engineering','malware','ida'], seed:3847, img:'./assets/img/crews/nahid.png', active:true, social:{linkedin:'https://www.linkedin.com/in/seam-sikder-nahid/',x:'https://x.com/SeamSikderNahid',github:'https://github.com/seam-sikder-nahid'} },
   { handle:'x!ku7inG', role:'Member', bio:'Breaks RSA before breakfast. Lattice sorcerer.', tags:['PWN','OSINT'], seed:6193, img:'./assets/img/crews/ziku.png', active:true, social:{linkedin:'https://www.linkedin.com/in/nure-alom-ziku-319065292/',x:'#',github:'#'} },
   { handle:'websh3ll', role:'Member', bio:'Disassembles firmware for fun. Malware analyst by night.', tags:['Reverse Engineering','PWN','OSINT'], seed:9025, img:'./assets/img/crews/websh3ll.png', active:true, social:{linkedin:'#',x:'#',github:'#'} },
