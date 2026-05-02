@@ -514,6 +514,7 @@
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
+    margin-bottom: 12px;
   }
 
   .tag {
@@ -524,6 +525,47 @@
     color: var(--acid);
     text-transform: uppercase;
     clip-path: polygon(4px 0%, 100% 0%, calc(100% - 4px) 100%, 0% 100%);
+  }
+
+  .member-social {
+    display: flex;
+    gap: 10px;
+    border-top: 1px solid rgba(0,255,231,0.1);
+    padding-top: 12px;
+    margin-top: 12px;
+  }
+
+  .social-icon {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: var(--muted);
+    transition: all 0.3s ease;
+    opacity: 0.7;
+  }
+
+  .social-icon svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .social-icon:hover {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+
+  .social-icon.linkedin:hover {
+    color: #0077B5;
+  }
+
+  .social-icon.x:hover {
+    color: #ffffff;
+  }
+
+  .social-icon.github:hover {
+    color: var(--neon);
   }
 
   /* ─── ABOUT SPLIT ─── */
@@ -661,6 +703,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
+    flex-wrap: wrap;
+    row-gap: 20px;
   }
 
   .footer-logo {
@@ -672,6 +716,7 @@
     display: flex;
     align-items: center;
     line-height: 0;
+    order: 1;
   }
 
   .footer-logo span { color: var(--blood); }
@@ -687,12 +732,17 @@
     font-size: 0.65rem;
     color: var(--muted);
     letter-spacing: 2px;
+    order: 3;
+    flex: 0 0 100%;
+    text-align: center;
+    margin-top: 4px;
   }
 
   .footer-links {
     display: flex;
     gap: 24px;
     list-style: none;
+    order: 2;
   }
 
   .footer-links a {
@@ -726,4 +776,7 @@
     .about-grid { grid-template-columns: 1fr; gap: 40px; }
     .about-visual { display: none; }
     footer { flex-direction: column; gap: 24px; text-align: center; }
+    .footer-logo { order: 1; }
+    .footer-links { order: 2; }
+    .footer-copy { order: 3; margin-top: 0; }
   }
